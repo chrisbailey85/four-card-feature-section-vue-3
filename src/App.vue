@@ -88,7 +88,7 @@ export default {
             y: 0,
             opacity: 1,
             duration: 1.2,
-            ease: 'elastic.out',
+            ease: 'power3',
             delay: el.dataset.index / 1.3
           })
         }
